@@ -1,0 +1,68 @@
+.box-foods {
+    width: 80%;
+
+    margin: 2px auto;
+}
+
+header {
+    /* background-color:rgb(85,142,243) ; */
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 15px;
+    border-radius: 4px;
+}
+
+.up {
+    background-color: rgb(85, 142, 243);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+
+.down {
+    background-color: #ccc;
+}
+
+/* -----icon ^------- */
+.arrow {
+    transition: 0.3s;
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+.arrow i{
+    vertical-align: middle;
+    text-align: center;
+}
+.btn-upArrow {
+    transform: rotate(-180deg);
+   color: #fff;
+}
+
+.btn-downArrow i {
+    transform: rotate(180deg);
+    color: #000;
+}
+
+/*----------------  */
+.title-header {
+    font-size: 24px;
+    color: #fff;
+
+}
+
+.title-Down {
+    font-size: 24px;
+    color: #000;
+}
+
+
+.product-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    border: 1px solid #CCC;
+    border-top: 0;
+    transition: 0.3s;
+}
